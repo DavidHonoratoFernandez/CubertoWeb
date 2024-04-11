@@ -1,10 +1,78 @@
+#ppseccion{
+    width: 100%;
+}
+
 #pseccion{
     width: 100%;
-    padding-top: 50px;
-    padding-right: 30px;
-    padding-bottom: 50px;
+    display: flex;
+    text-align: center;
+}
+
+#sseccion{
+    width: 50%;
 }
 
 .texto{
-    
+    margin: 3%;
+    text-align: left;
+}
+
+#pstexto{
+    color: rgb(0, 134, 135);
+    font-size: 600%;
+}
+
+#sstexto{
+    color:gray;
+    font-size: 500%;
+}
+
+#titulo{
+    font-size: 200%;
+}
+
+#img{
+    height: 75%;
+    text-align: center;
+    margin: 3%;
+}
+
+#tseccion{
+    width: 95%;
+    background-color: black;
+    color: white;   
+    padding: 2%;
+    display: flex;
+}
+
+#cseccion{
+    width: 25%;
+}
+
+@media screen and (max-width: 800px){
+    .texto{
+        font-size: 100%;
+        width: 100%;
+    }
+    #img {
+        width: 100%;
+        height: 100%;
+    }
+    #pseccion{
+        display: block;
+        width: 100%;
+    }
+    #sseccion{
+        width: 100%;
+    }
+    #pstexto{
+        font-size: 300%;
+    }
+    #sstexto{
+        font-size: 200%;
+    }
+}
+#todo{
+        font-family: "Mallanna", sans-serif;
+        font-style: normal;
 }
